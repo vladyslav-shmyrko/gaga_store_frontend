@@ -130,8 +130,8 @@ export default function PrimarySearchAppBar({ basketOpenHandler }: any) {
     >
       <MenuItem>
         <IconButton size="large" aria-label="show 4 new mails" color="inherit">
-          <Badge badgeContent={4} color="error">
-            <MailIcon />
+          <Badge badgeContent={4} color="info">
+            <MailIcon color="success" />
           </Badge>
         </IconButton>
         <p>Messages</p>
@@ -142,7 +142,7 @@ export default function PrimarySearchAppBar({ basketOpenHandler }: any) {
           aria-label="show 17 new notifications"
           color="inherit"
         >
-          <Badge badgeContent={17} color="error">
+          <Badge badgeContent={22} color="success">
             <NotificationsIcon />
           </Badge>
         </IconButton>
@@ -206,19 +206,19 @@ export default function PrimarySearchAppBar({ basketOpenHandler }: any) {
             <IconButton
               size="large"
               aria-label="show 4 new mails"
-              color="inherit"
+              color="error"
             >
-              <Badge badgeContent={4} color="error">
+              <Badge badgeContent={4} color="success">
                 <MailIcon />
               </Badge>
             </IconButton>
             <IconButton
               size="large"
               aria-label="show 17 new notifications"
-              color="inherit"
+              color="error"
               onClick={basketOpenHandler}
             >
-              <Badge badgeContent={17} color="error">
+              <Badge badgeContent={17} color="success">
                 <ShoppingBasket />
               </Badge>
             </IconButton>
@@ -229,7 +229,7 @@ export default function PrimarySearchAppBar({ basketOpenHandler }: any) {
               aria-controls={menuId}
               aria-haspopup="true"
               onClick={handleProfileMenuOpen}
-              color="inherit"
+              color="error"
             >
               <AccountCircle />
             </IconButton>

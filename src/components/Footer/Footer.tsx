@@ -6,7 +6,7 @@ import { styled } from '@mui/material/styles';
 
 const Wrapper = styled('div')(({ theme }) => ({
   height: '250px',
-  backgroundColor: '#222935',
+  backgroundColor: '#201E2C',
   [theme.breakpoints.down('md')]: {
     height: '100px',
   },

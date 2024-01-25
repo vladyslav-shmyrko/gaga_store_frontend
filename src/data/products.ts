@@ -15,6 +15,7 @@ const goods = [
     title: 'Ананас кільця “Лорадо” 580г',
     price: '51.5грн',
     categoryId: 1,
+    new: true,
   },
   {
     id: 2,
@@ -33,12 +34,14 @@ const goods = [
     title: 'Кавун солодкий 1шт',
     price: '37.8грн',
     categoryId: 1,
+    new: true,
   },
   {
     id: 5,
     title: 'Оливки “Каламата” 250г',
     price: '42.0грн',
     categoryId: 1,
+    new: true,
   },
   {
     id: 6,
@@ -51,6 +54,7 @@ const goods = [
     title: 'Грейпфрут свіжий 2шт',
     price: '19.5грн',
     categoryId: 1,
+    new: true,
   },
   {
     id: 8,
@@ -63,18 +67,21 @@ const goods = [
     title: 'Печиво “Медове” 300г',
     price: '45.0грн',
     categoryId: 1,
+    new: true,
   },
   {
     id: 10,
     title: 'Курка гриль 1кг',
     price: '78.3грн',
     categoryId: 1,
+    new: true,
   },
   {
     id: 11,
     title: 'Молоко “Простоквашино” 1л',
     price: '28.0грн',
     categoryId: 1,
+    new: true,
   },
   {
     id: 12,
@@ -101,6 +108,7 @@ const goods = [
     title: 'Протеїновий батончик “FitPro” 40г',
     price: '29.5грн',
     categoryId: 2,
+    new: true,
   },
   {
     id: 16,
